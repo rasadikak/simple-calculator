@@ -29,4 +29,4 @@ To run the calculator on your local machine:
    ```bash
    git clone https://github.com/rasadikak/simple-calculator.git
 
-[calculator screenshot](Screenshot(238).png)
+[calculator screenshot](Screenshot (238).png)
