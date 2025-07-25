@@ -7,7 +7,6 @@ A clean and responsive calculator web app built using **HTML**, **Tailwind CSS**
 ## ✨ Features
 
 - Perform addition, subtraction, multiplication, and division
-- Responsive design that works on desktops and mobile devices
 - Styled with Tailwind CSS for a sleek and clean UI
 - Clear button to reset input
 
@@ -29,4 +28,4 @@ To run the calculator on your local machine:
    ```bash
    git clone https://github.com/rasadikak/simple-calculator.git
 
-![calculator screenshot](Screenshot (238).png)
+
