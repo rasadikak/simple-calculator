@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        
+    <title>my cal </title>
+    
+    <script defer src="https://cdn.tailwindcss.com"></script>
+
+  <script  src="cal.js"></script>
+    </head>
+    <body class="flex items-center justify-center min-h-screen bg-blue-100">
+        <div class="bg-white rounded-xl shadow-lg p-6 w-72">
+        
+           
+                <div class="w-full mb-4 p-3 text-right text-xl border border-gray-300 rounded-md bg-gray-300 rounnded-md bg-gray-100">
+                <input type="text" id="display" readonly >
+            </div><br>
+                <div class="grid grid-cols-5 gap-3">
+                <input type='button' value ="1" id="one" onclick="append_display('1')" class="btn bg-blue-400">
+                <input type='button' value ="2" id="two" onclick="append_display('2')" class="btn bg-blue-400">
+                <input type='button' value ="3" id="three" onclick="append_display('3')" class="btn bg-blue-400">
+                <input type='button' value ="4" id="four" onclick="append_display('4')" class="btn bg-blue-400">
+                <br>
+            
+                <input type='button' value ="5" id="five" onclick="append_display('5')" class="btn bg-blue-400">
+                <input type='button' value ="6" id="six" onclick="append_display('6')" class="btn bg-blue-400">
+                <input type='button' value ="7" id="seven" onclick="append_display('7')" class="btn bg-blue-400">
+                <input type='button' value ="8" id="eight" onclick="append_display('8')" class="btn bg-blue-400">
+                <br>
+            
+                <input type='button' value ="9" id="nine" onclick="append_display('9')" class="btn bg-blue-400">
+                <input type='button' value ="0" id="zero" onclick="append_display('0')" class="btn bg-blue-400">
+                <input type='button' value ="+" id="sum" onclick="append_display('+')" class="btn bg-blue-400">
+                <input type='button' value ="-" id="sub" onclick="append_display('-')" class="btn bg-blue-400">
+                <br>
+           
+                <input type='button' value ="*" id="multi" onclick="append_display('*')"class="btn bg-blue-400">
+                <input type='button' value ="/" id="div" onclick="append_display('/')" class="btn bg-blue-400">
+                <input type='button' value ="=" id="equal" onclick="result()" class="btn bg-blue-400">
+                <input type='button' value ="C" id="C" onclick="clearDisplay()" class="btn bg-blue-400">
+                <br>
+            
+                <input type='button' value ="x" id="del" onclick="del_element()" class="btn bg-blue-400">
+                <input type='button' value ="%" id="perce" onclick="append_display('%')"class="btn bg-blue-400" >
+                <input type='button' value ="." id="floating" onclick="append_display('.')" class="btn bg-blue-400">
+                <input type='button' value ="+/-" id="minus" onclick="append_display('-')" class="btn bg-blue-400">
+            </div>
+          
+    </div>
+        <br>
+        
+    </body>
+
+    
+</html>
